@@ -1,0 +1,101 @@
+{
+  "city": "新加坡",
+  "imgList": [{
+      "id": 0,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png ",
+      "title": "景点门票"
+    },
+    {
+      "id": 1,
+      "src": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+      "title": "北京必游"
+    },
+    {
+      "id": 2,
+      "src": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "title": "一日游"
+    },
+    {
+      "id": 3,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+      "title": "文化古迹"
+    },
+    {
+      "id": 4,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+      "title": "动植物园"
+    },
+    {
+      "id": 5,
+      "src": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+      "title": "打卡圣地"
+    },
+    {
+      "id": 6,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+      "title": "野生动物园"
+    },
+    {
+      "id": 7,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+      "title": "泡温泉"
+    },
+    {
+      "id": 8,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+      "title": "故宫"
+    },
+    {
+      "id": 9,
+      "src": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+      "title": "全部玩乐"
+    }
+  ],
+  "recommendList": [{
+      "id": 0,
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1503/a4/a4f2b672758470e1.water.jpg_200x200_dc7bca5c.jpg",
+      "title": "爱丁堡城堡",
+      "desc": "看命运之石、皇冠珠宝，聆听鸣炮的隆隆炮声"
+    },
+    {
+      "id": 1,
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201312/17/7c3db1ed62a8f724c110394c60e8e3b7.jpg_200x200_0a9e6a8f.jpg",
+      "title": "伦敦塔桥",
+      "desc": "在高空通道上饱览泰晤士河及两岸的秀丽景色"
+    },
+    {
+      "id": 2,
+      "imgUrl": "http://img1.qunarzz.com/sight/p30/201211/08/032036f4bc2ef0dc93835fbb.jpg_200x200_13931a89.jpg",
+      "title": "牛津大学",
+      "desc": "这里有风情万种的建筑和积淀的斑斓文化"
+    }
+  ],
+  "swiperList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/31/da037478f37cf202.jpg_750x200_a02cf862.jpg"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/ff/1bf7d3a4f6591002.jpg_750x200_40809f2a.jpg"
+    }
+  ],
+  "weekendList": [{
+      "id": 0,
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1503/a4/a4f2b672758470e1.water.jpg_200x200_dc7bca5c.jpg",
+      "title": "爱丁堡城堡",
+      "desc": "看命运之石、皇冠珠宝，聆听鸣炮的隆隆炮声"
+    },
+    {
+      "id": 1,
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201312/17/7c3db1ed62a8f724c110394c60e8e3b7.jpg_200x200_0a9e6a8f.jpg",
+      "title": "伦敦塔桥",
+      "desc": "在高空通道上饱览泰晤士河及两岸的秀丽景色"
+    },
+    {
+      "id": 2,
+      "imgUrl": "http://img1.qunarzz.com/sight/p30/201211/08/032036f4bc2ef0dc93835fbb.jpg_200x200_13931a89.jpg",
+      "title": "牛津大学",
+      "desc": "这里有风情万种的建筑和积淀的斑斓文化"
+    }
+  ]
+}
