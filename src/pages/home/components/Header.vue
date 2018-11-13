@@ -2,7 +2,9 @@
 <div class="header">
   <div class="header-left"><span class="iconfont">&#xe624;</span></div>
   <div class="header-input"><span class="iconfont input-icon">&#xe632;</span>输入城市/景点/游玩主题</div>
-  <div class="header-right">{{page}}<span class="iconfont">&#xe6aa;</span></div>
+  <router-link to="/city">
+    <div class="header-right">{{page}}<span class="iconfont">&#xe6aa;</span></div>
+  </router-link>
 </div>
 </template>
 
@@ -29,10 +31,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import "~styles/varibles.styl"
 .header
   display: flex;
-  height: .86rem;
-  line-height:.86rem;
+  height: $headerHeight
+  line-height:$headerHeight
   background:#00bcd4;
   font-size:.3rem;
   overflow: hidden;
@@ -43,6 +46,7 @@ export default {
   .header-right
     padding: 0 .12rem;
     text-align: center;
+    color:#fff;
   .header-input
     flex:1;
     height: .6rem;
