@@ -3,7 +3,8 @@ import Vuex from 'vuex'
 import axios from 'axios'
 Vue.use(Vuex)
 var state={
-  data:""
+  data:"",
+  city:"北京"
 }
 axios.get("/api/index.json").then(res=>{
   state.data=res.data;

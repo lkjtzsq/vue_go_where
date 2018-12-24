@@ -5,7 +5,7 @@
   </div>
   <div class="search-content" ref="search" v-show="keyword.length">
     <ul>
-      <li class="search-item border-bottom" v-for="item of list" :key="item.id">{{item.name}}</li>
+      <li class="search-item border-bottom" v-for="item of list" :key="item.id" @click="changeCity(item.name)">{{item.name}}</li>
       <li class="search-item border-bottom" v-show="hasNoData">没有找到匹配项目</li>
     </ul>
   </div>
@@ -24,6 +24,12 @@ export default {
       keyword: '',
       list: [],
       timer: null
+    }
+  },
+  methods:{
+    changeCity(name){
+      this.$store.state.city=name
+      this.$router.push('/')
     }
   },
   computed:{
