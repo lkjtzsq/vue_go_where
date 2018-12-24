@@ -10,6 +10,7 @@
 
 <script>
 import store from '../../../vuex/store.js'
+import {mapState} from 'vuex'
 export default {
   name:"HomeHeader",
   data (){
