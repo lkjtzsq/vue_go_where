@@ -6,7 +6,7 @@ var state={
   data:"",
   city:"北京"
 }
-axios.get("/api/index.json").then(res=>{
+axios.get("/api/index.json?city="+state.city).then(res=>{
   state.data=res.data;
 })
 var mutations={
