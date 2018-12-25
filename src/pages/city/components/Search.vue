@@ -28,7 +28,12 @@ export default {
   },
   methods:{
     changeCity(name){
+<<<<<<< HEAD
       this.$store.commit('changeCity',name)
+=======
+      this.$store.state.city=name
+      localStorage.city=name
+>>>>>>> city-keep
       this.$router.push('/')
       localStorage.city=name
     }
