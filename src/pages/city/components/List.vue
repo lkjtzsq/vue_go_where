@@ -52,6 +52,7 @@ export default {
   methods:{
     changeCity(name){
       this.$store.state.city=name;
+      localStorage.city=name;
       this.$router.push('/')
     }
   },
